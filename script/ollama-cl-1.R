@@ -39,16 +39,12 @@ process_caption <- function(caption) {
 }
 
 #loop    
-for (i in 1001:min(length(hpsc_captions), 1100)) {
+for (i in 1201:min(length(hpsc_captions), 1300)) {
   results[[i]] <- process_caption(hpsc_captions[i])
 }       
                   
 # Convert the list of results to a dataframe
 results_df <- data.frame(results = unlist(results))
-write.csv(results_df, "/Users/amirabarizah/Documents/data-hp/data/results200.csv")
-write.csv(results_df, "/Users/amirabarizah/Documents/data-hp/data/results.csv")
-write.csv(results_df, "/Users/amirabarizah/Documents/data-hp/data/trial_results.csv")
-
-
+write.csv(results_df, "/Users/amirabarizah/Documents/data-hp/data/results32_1200.csv")
 
                   

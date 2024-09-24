@@ -3,9 +3,9 @@
     "path": "~/Documents/data-hp/script/ollama-cl-1.R",
     "project_path": "script/ollama-cl-1.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "3048111536",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1727185704930.0,
     "source_on_save": false,
     "relative_order": 3,
@@ -16,11 +16,11 @@
         "scrollLine": "30"
     },
     "folds": "",
-    "lastKnownWriteTime": 1727180068,
+    "lastKnownWriteTime": 1727185971,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1727185737901,
+    "last_content_update": 1727185971839,
     "read_only": false,
     "read_only_alternatives": []
 }
